@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default
+}
+
+
+
+.gradient-primary {
+  @apply bg-gradient-to-r from-[#632EE3] to-[#9A5EF1];
+}
+.btn-gradient-primary {
+  @apply bg-gradient-to-r from-[#632EE3] to-[#9A5EF1];
+}
+.gradient-primary:hover {
+  @apply from-[#9A5EF1] to-[#632EE3];
+}
